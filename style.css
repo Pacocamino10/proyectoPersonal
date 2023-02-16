@@ -1,0 +1,35 @@
+
+
+.ppal div {
+  background: lightblue;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+
+
+
+/* .bioPal {
+  border: 20px blue;
+  border-style: ridge;
+} */
+
+#divBio {
+    position: absolute;
+    border: 1px solid red;
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+}
+
+/* PORTFOLIO*/
+/* CONTACTO*/
