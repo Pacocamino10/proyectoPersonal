@@ -18,14 +18,13 @@
 }
 
 #parrafoConFoto {
+  word-break: break-all;
 }
 
 #parrafito1 {
   color: white;
 }
 #fotito1 {
- 
-                    
 }
 
 html {
@@ -35,9 +34,6 @@ body {
   background-color: #011535;
   min-height: 100%;
 }
-
-
-
 
 #h1 {
   box-shadow: 0 0 15px 10px #09afca;
@@ -60,20 +56,55 @@ body {
 
 form {
   height: 100%;
-  width: 100%;
 }
 
 #atras {
   margin: 0% auto;
-;
   width: 15%;
   height: 30%;
 }
 
-a{
+a {
   color: white;
   background-color: rgb(247, 1, 1);
   text-align: center;
   border-radius: 100%;
-  text-decoration: none
+  text-decoration: none;
+}
+
+/*tablet*/
+@media (min-width: 447px) {
+  #parrafoConFoto {
+    display: flex;
+    width: 100%;
+    word-break: break-all;
+  }
+  #parrafito1 {
+    color: white;
+    padding: 10px;
+    width: 50%;
+  }
+
+  #fotito1 {
+    margin: 0% auto;
+    width: 50%;
+  }
+  #fotocv {
+    width: 100%;
+    height: 100%;
+  }
+  #formulario {
+    width: 100%;
+    display: flex;
+    margin: 0% auto;
+    justify-content: center;
+  }
+
+  #headerBio {
+    margin: 0 60px;
+  }
+}
+
+/*escritorio*/
+@media (min-width: 1024px) {
 }
