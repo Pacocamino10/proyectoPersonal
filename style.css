@@ -2,19 +2,53 @@
   margin: 0 auto;
   width: 90%;
 }
-.a {
-  margin: 0 30px;
-  background: #09afca;
-  border-radius: 100%;
+.estilosMarq {
+  font-family: Arial, Helvetica, Sans-serif;
   color: white;
+
+  font-size: 150px;
+}
+
+#marquesina{
+margin-top: 50%;
+
+}
+
+.flexBox{
+width: 150px;
+height: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+
+.a {
+  height: 100%;
+  width: 90%;
+  background: white;
+  border-radius: 100%;
+  color: #011535;
   text-decoration: none;
 }
 
 .header {
+  padding-top: 300px;
   display: flex;
   margin: 0 auto;
   width: 80%;
+  height: 0px;
   justify-content: center;
+}
+
+#fotocv {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50%;
+  background-size: 100% auto;
 }
 
 #parrafoConFoto {
@@ -23,9 +57,17 @@
 
 #parrafito1 {
   color: white;
+  
+
 }
-#fotito1 {
+
+#fotito1{
+
+  display: flex;
+  justify-content: center;
+  margin: 0% auto;
 }
+
 
 html {
   height: 100%;
@@ -50,12 +92,20 @@ body {
 }
 
 #formulario {
+  display:flex;
+  justify-content: center;
   height: 80%;
   color: white;
 }
 
 form {
+width: 40%;
   height: 100%;
+}
+
+input,textarea{
+
+  width: 100%;
 }
 
 #atras {
@@ -73,25 +123,31 @@ a {
 }
 
 /*tablet*/
-@media (min-width: 447px) {
+@media (min-width: 813px) {
   #parrafoConFoto {
     display: flex;
     width: 100%;
     word-break: break-all;
   }
+  #textoPersonal {
+    font-size: 25px;
+  }
   #parrafito1 {
     color: white;
     padding: 10px;
-    width: 50%;
+    width: 70%;
   }
 
   #fotito1 {
-    margin: 0% auto;
-    width: 50%;
+    
+    display: flex;
+    align-items: center;
+  justify-content: center;    
+   
   }
   #fotocv {
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
   }
   #formulario {
     width: 100%;
@@ -106,5 +162,9 @@ a {
 }
 
 /*escritorio*/
-@media (min-width: 1024px) {
+@media (min-width: 760px) {
+  #fotocv {
+    width: 100%;
+    height: 100%;
+  }
 }

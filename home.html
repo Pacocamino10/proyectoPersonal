@@ -10,11 +10,50 @@
   </head>
   <body>
     <div id="divPrincipal">
-      <div class="header">
-        <div><a class="a" href="#bibiografía">Biografía</a></div>
-        <div><a class="a" href="#portfolio">Portfolio</a></div>
-        <div><a class="a" href="#formulario">Contacto</a></div>
+      <div id="marquesina">
+        <marquee
+          class="estilosMarq"
+          behavior="scroll"
+          direction="right"
+          scrollamount="10"
+          >HOLA.</marquee
+        >
+        <marquee
+          class="estilosMarq"
+          behavior="scroll"
+          direction="right"
+          scrollamount="5"
+          >HELLO.</marquee
+        >
+        <marquee
+          class="estilosMarq"
+          behavior="scroll"
+          direction="right"
+          scrollamount="1"
+          >GUTEN MORGEN.</marquee
+        >
+        <marquee
+          class="estilosMarq"
+          behavior="scroll"
+          direction="right"
+          scrollamount="20"
+          >BOM DIA.</marquee
+        >
+        <marquee
+          class="estilosMarq"
+          behavior="scroll"
+          direction="right"
+          scrollamount="100"
+          >Buongiorno.</marquee
+        >
       </div>
+      <div class="header">
+        <div class="flexBox"><a class="a" href="#bibiografía">Biografía</a></div>
+        <div class="flexBox"><a class="a" href="#portfolio">Portfolio</a></div>
+        <div class="flexBox"><a class="a" href="#formulario">Contacto</a></div>
+      </div>
+
+      <br />
 
       <header id="headerBio">
         <div id="h1"><h1 id="bibiografia">BIBIOGRAFIA</h1></div>
@@ -25,13 +64,14 @@
             <h1>
               DESARROLLADOR <span style="color: #09afca">FULL STACK</span>
             </h1>
-            Soy una persona mentalmente muy explosiva y atractiva al mismo
-            tiempo. He pasado por muchos momentos en la vida que me han enseñado
-            a vivir esta ultima de manera intensa y siempre agradecido.
-            Transparente e inquieto , con Tdah en las venas. <br /><br />
-
-            La misión de mi vida es ser feliz!
+            <p id="textoPersonal">Soy una persona mentalmente muy explosiva y atractiva al mismo
+              tiempo. He pasado por muchos momentos en la vida que me han enseñado
+              a vivir esta ultima de manera intensa y siempre agradecido.
+              Transparente e inquieto , con Tdah en las venas. <br /><br />
+  
+              La misión de mi vida es ser feliz!</p> 
           </div>
+
           <br />
 
           <div id="fotito1">
@@ -61,7 +101,7 @@
           <ul>
             <li>
               <label for="name">Nombre:</label><br />
-              <input type="text" id="name" name="user_name" />
+              <input  type="text" id="name" name="user_name" />
             </li>
             <li>
               <label for="mail">Correo electrónico:</label><br />
