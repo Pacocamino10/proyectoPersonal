@@ -9,10 +9,31 @@
   font-size: 50px;
 }
 
+#cv{
+display: flex;
+justify-content: center;
+text-align: center;
+margin-top: 50%;
+}
+
+#btn { 
+	display: flex; 
+	padding: 20px 40px;
+	color: white;
+	position: absolute;
+
+	transform: translate(-50%, -50%);
+	vertical-align: middle;
+	font-family: 'Rubik One', sans-serif;
+	text-decoration: none;
+	font-size: 4vw;
+	transition: all .5s;
+	background-color: #3498db;
+
+}
+
 #marquesina{
 margin-top: 30%;
-
-
 }
 
 .flexBox{
@@ -167,7 +188,7 @@ a {
     margin: 0 60px;
   }
 }
-
+/*----------------------------------------------------------------*/
 /*escritorio*/
 @media (min-width: 760px) {
   #fotocv {
@@ -175,7 +196,7 @@ a {
     height: 100%;
   }
 }
-
+/*----------------------------------------------------------------*/
 /*enorme*/
 @media (min-width:1100px) {
   #fotocv {
